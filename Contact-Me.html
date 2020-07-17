@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact-Me</title>
+</head>
+
+<body>
+  <h1>My Contacts</h1>
+  <ul>
+    <h3>My address:</h3>
+    <p>
+      Unit 131, No 29 , Zafar Ave, Toronto, Canada
+    </p>
+    <h3>My Email address:</h3>
+    <p>
+      <a href="aydin.pakravan@gmail.com">aydin.pakravan@gmail.com</a>
+    </p>
+
+  </ul>
+<form action="mailto:aydin.pakravan@gmail.com" method="post" enctype="text/plain">
+  <!--To make function to the code above, I remove "class" and add another attribute"enctype: Text/Plain-->
+  <!-- The normal < form > code is <form class="" action="index.html" method="post">-->
+  <!-- to check the reason of this act, check https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12287496#notes-->
+  <label>Your Name:</label>
+  <input type="text" name="yourName" value="">
+  <input type="checkbox" name="" value=""><br />
+  <label>Your Email:</label>
+  <input type="email" name="yourEmail" value=""><br />
+  <label>Your Message</label><br />
+  <textarea name="name" rows="10" cols="30"></textarea><br />
+  <input type="file" name="yourMessage" value=""><br />
+  <input type="submit" name="">
+
+</form>
+
+</body>
+
+</html>
